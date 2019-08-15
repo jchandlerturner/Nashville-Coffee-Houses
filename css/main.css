@@ -1,0 +1,61 @@
+
+
+.pageHeader {
+    text-align: center;
+    margin: 40px;
+    font-size: 3em;
+    font-family: 'Luckiest Guy', cursive;
+    color: blanchedalmond;
+
+}
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.list > .shop {
+    width: 30%;
+}
+
+.shop {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: whitesmoke;
+}
+
+a:link, a:visited {
+    font-size: 2em;
+    font-family: 'Luckiest Guy', cursive;
+    color: salmon;
+  }
+  
+  a:hover, a:active {
+    background-color: goldenrod;
+  }
+
+
+.address {
+    padding-top: 40px;
+    
+}
+
+.phone {
+}
+
+.info {
+    line-height: 12pt;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: salmon;
+}
